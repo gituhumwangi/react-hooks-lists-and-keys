@@ -182,6 +182,7 @@ component to display each color. In the example below, we'd need to use the
 ```jsx
 // ColorItem component
 function ColorItem(props) {
+  
   return <li style={{ color: props.color }}>{props.color}</li>;
 }
 
